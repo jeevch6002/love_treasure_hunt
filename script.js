@@ -20,30 +20,13 @@ setInterval(createHeart,300);
 
 function checkPassword(){
 
-let p = document.getElementById("pass").value;
+let p=document.getElementById("pass").value.toLowerCase();
 
-if(p=="jeeva"){
-alert("Correct!");
+if(p=="cutie"){
 window.location.href="clue1.html";
 }
 else{
 alert("Wrong password my love ❤️");
-  
-}
-  function checkClue1(){
-
-let ans = document.getElementById("clue1pass").value.toLowerCase();
-
-if(ans == "instagram"){
-window.location.href = "game.html";
-}
-else{
-alert("That's not the right memory ❤️ Try again!");
 }
 
 }
-
-}
-
-
-
