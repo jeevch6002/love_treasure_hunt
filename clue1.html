@@ -2,43 +2,25 @@
 <html>
 
 <head>
-
 <title>Clue 1</title>
-
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
 <h2>💌 Clue 1</h2>
 
+<p>Beautiful memory ❤️😁</p>
+
 <img src="images/photo1.jpg" width="300">
 
-<p>The Occasion When our Journey Started?</p>
+<p>Guess the ocassion where it all Started?</p>
 
-<input id="answer">
+<input type="text" id="clue1pass">
 
 <br><br>
 
-<button onclick="check()">Submit</button>
-
-<script>
-
-function check(){
-
-let a=document.getElementById("answer").value.toLowerCase();
-
-if(a=="Birthday"){
-window.location.href="game.html";
-}
-else{
-alert("Try again ❤️");
-}
-
-}
-
-</script>
+<button onclick="checkClue1()">Submit</button>
 
 <script src="script.js"></script>
 
