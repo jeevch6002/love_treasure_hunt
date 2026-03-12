@@ -2,43 +2,19 @@
 <html>
 
 <head>
-
 <title>Catch My Heart</title>
-
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-<h2>Catch my heart 5 times ❤️</h2>
+<h2>💖 Catch My Heart</h2>
 
-<div id="heart">❤️</div>
+<p>Click the heart 5 times to continue ❤️</p>
 
-<p>Score: <span id="score">0</span></p>
+<h3 id="score">0</h3>
 
-<script>
-
-let score=0;
-
-let heart=document.getElementById("heart");
-
-heart.onclick=function(){
-
-score++;
-
-document.getElementById("score").innerHTML=score;
-
-heart.style.left=Math.random()*500+"px";
-heart.style.top=Math.random()*400+"px";
-
-if(score==5){
-window.location.href="quiz.html";
-}
-
-}
-
-</script>
+<div class="game-heart" onclick="catchHeart()">❤️</div>
 
 <script src="script.js"></script>
 
