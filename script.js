@@ -22,7 +22,7 @@ function checkPassword(){
 
 let p=document.getElementById("pass").value.toLowerCase();
 
-if(p=="cutie"){
+if(p=="jeeva"){
 window.location.href="clue1.html";
 }
 else{
@@ -30,3 +30,4 @@ alert("Wrong password my love ❤️");
 }
 
 }
+
