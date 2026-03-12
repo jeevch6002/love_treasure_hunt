@@ -20,9 +20,10 @@ setInterval(createHeart,300);
 
 function checkPassword(){
 
-let p=document.getElementById("pass").value.toLowerCase();
+let p = document.getElementById("pass").value;
 
 if(p=="1234"){
+alert("Correct!");
 window.location.href="clue1.html";
 }
 else{
@@ -30,4 +31,5 @@ alert("Wrong password my love ❤️");
 }
 
 }
+
 
