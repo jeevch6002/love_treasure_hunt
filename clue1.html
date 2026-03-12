@@ -13,32 +13,13 @@
 
 <h2>💌 Clue 1</h2>
 
-<img src="images/photo1.jpg" width="300">
+<p>Where did we first talk for hours?</p>
 
-<p>The Occasion When our Journey Started?</p>
-
-<input id="answer">
+<input type="text" id="clue1pass">
 
 <br><br>
 
-<button onclick="check()">Submit</button>
-
-<script>
-
-function check(){
-
-let a=document.getElementById("answer").value.toLowerCase();
-
-if(a=="Birthday"){
-window.location.href="game.html";
-}
-else{
-alert("Try again ❤️");
-}
-
-}
-
-</script>
+<button onclick="checkClue1()">Submit</button>
 
 <script src="script.js"></script>
 
