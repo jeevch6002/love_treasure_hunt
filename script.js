@@ -22,14 +22,28 @@ function checkPassword(){
 
 let p = document.getElementById("pass").value;
 
-if(p=="1234"){
+if(p=="jeeva"){
 alert("Correct!");
 window.location.href="clue1.html";
 }
 else{
 alert("Wrong password my love ❤️");
+  
+}
+  function checkClue1(){
+
+let ans = document.getElementById("clue1pass").value.toLowerCase();
+
+if(ans == "instagram"){
+window.location.href = "game.html";
+}
+else{
+alert("That's not the right memory ❤️ Try again!");
 }
 
 }
+
+}
+
 
 
