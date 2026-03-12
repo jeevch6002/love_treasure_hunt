@@ -2,21 +2,27 @@
 <html>
 
 <head>
+
 <title>Love Quiz</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <h2>🧠 Love Quiz</h2>
 
-<p>What is my favorite color?</p>
+<p id="question"></p>
 
-<button onclick="checkQuiz('red')">Red</button>
-<button onclick="checkQuiz('black')">Black</button>
-<button onclick="checkQuiz('blue')">Blue</button>
+<button onclick="checkAnswer(0)" id="btn0"></button>
+<button onclick="checkAnswer(1)" id="btn1"></button>
+<button onclick="checkAnswer(2)" id="btn2"></button>
+
+<p>Score: <span id="score">0</span></p>
 
 <script src="quiz.js"></script>
+<script src="script.js"></script>
 
 </body>
 
