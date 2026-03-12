@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Catch My Heart</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2>Catch my heart 5 times ❤️</h2>
+
+<div id="heart">❤️</div>
+
+<p>Score: <span id="score">0</span></p>
+
+<script>
+
+let score=0;
+
+let heart=document.getElementById("heart");
+
+heart.onclick=function(){
+
+score++;
+
+document.getElementById("score").innerHTML=score;
+
+heart.style.left=Math.random()*500+"px";
+heart.style.top=Math.random()*400+"px";
+
+if(score==5){
+window.location.href="quiz.html";
+}
+
+}
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

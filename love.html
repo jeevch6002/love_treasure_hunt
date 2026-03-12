@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Why I Love You</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2>💖 Why I Love You</h2>
+
+<p id="text">Click the button ❤️</p>
+
+<button onclick="showLove()">Tell Me</button>
+
+<br><br>
+
+<button onclick="next()">Final Surprise</button>
+
+<script>
+
+let messages=[
+
+"You always Listens to me",
+"I love your smile",
+"You always COmpremise for me",
+"You never fail to understand me",
+"You always loves me"
+
+];
+
+function showLove(){
+
+let random=Math.floor(Math.random()*messages.length);
+
+document.getElementById("text").innerHTML=messages[random];
+
+}
+
+function next(){
+window.location.href="letter.html";
+}
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

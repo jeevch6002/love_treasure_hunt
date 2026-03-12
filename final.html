@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Click me Last</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+<h1>🎉 Congratulations My Love</h1>
+
+<p>You completed the treasure hunt ❤️</p>
+
+<p>The real treasure is YOU</p>
+
+<video width="400" controls>
+
+<source src="videos/birthday.mp4" type="video/mp4">
+
+</video>
+
+<br><br>
+
+<button onclick="gift()">Claim Your Birthday Gift 🎁</button>
+
+<script>
+
+function gift(){
+alert("Call me now ❤️");
+}
+
+confetti({
+particleCount:200,
+spread:100,
+origin:{y:0.6}
+});
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

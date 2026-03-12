@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Love Memory Game</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.grid{
+display:grid;
+grid-template-columns:repeat(4,100px);
+gap:10px;
+justify-content:center;
+margin-top:40px;
+}
+
+.card{
+width:100px;
+height:100px;
+background:#ff4d88;
+font-size:40px;
+display:flex;
+align-items:center;
+justify-content:center;
+cursor:pointer;
+border-radius:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>💖 Love Memory Game</h2>
+
+<p>Match all the hearts to unlock the next surprise ❤️</p>
+
+<div class="grid" id="grid"></div>
+
+<script src="memory.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
